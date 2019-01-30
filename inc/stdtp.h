@@ -282,7 +282,7 @@ typedef signed   long db_int8;
 typedef unsigned long long db_nat8;
 typedef signed   long long db_int8;
 
-#if defined(__MINGW32__) && __GNUG__<3
+#if defined(__MINGW32__) //&& __GNUG__<3
 #define INT8_FORMAT "%I64d"
 #define L_INT8_FORMAT L"%I64d"
 #else
